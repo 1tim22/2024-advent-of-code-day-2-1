@@ -48,7 +48,7 @@ mod tests {
     fn test_is_list_descending() {
         assert!(is_list_descending(&vec![13, 12, 11, 4, 0]));
         assert!(!is_list_descending(&vec![2, 3, 5, 10]));
-        assert!(is_list_ascending(&vec![13, 13, 13, 13, 13, 13]));
+        assert!(is_list_descending(&vec![13, 13, 13, 13, 13, 13]));
     }
 
     #[test]
